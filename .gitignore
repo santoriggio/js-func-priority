@@ -1,0 +1,21 @@
+# Files and directories to exclude from Git
+
+# Node.js dependencies
+node_modules/
+
+# Compiled output
+dist/
+
+# Environment-specific files
+.env
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*

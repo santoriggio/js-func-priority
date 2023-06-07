@@ -1,0 +1,29 @@
+{
+  "name": "js-func-priority",
+  "version": "1.0.0",
+  "description": "js-func-priority",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "postbuild": "tsc --declaration && ts2js -i dist -o dist -r"
+  },  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/santoriggio/js-func-priority.git"
+  },
+  "keywords": [
+    "javasript",
+    "function",
+    "priority"
+  ],
+  "author": "Santo Riggio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/santoriggio/js-func-priority/issues"
+  },
+  "homepage": "https://github.com/santoriggio/js-func-priority#readme",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}

@@ -1,0 +1,9 @@
+# Files and directories to exclude when publishing to npm
+
+# Source files
+src/
+
+# Development and build files
+node_modules/
+dist/
+tsconfig.json
